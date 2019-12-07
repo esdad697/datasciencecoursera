@@ -1,0 +1,17 @@
+---
+title: "HelloWorld.md"
+author: "Andrew"
+date: "12/6/2019"
+output: html_document
+---
+
+# Git Cheatsheet
+
+## Create a repo and push to GitHub
+cd the_assembled_toolbox
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/esdad697/test1.git
+git push -u origin master
+
